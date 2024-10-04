@@ -7,6 +7,7 @@ import { Router, Routes, Route } from 'react-router-dom'
 import UserDisplay from './Component/user/UserDisplay'
 import AddUser from './Component/user/AddUser'
 
+
 function App() {
   return (
     <>
@@ -19,8 +20,6 @@ function App() {
         <Route path="/addUser" element={<AddUser />} />
 
       </Routes>
-
-      <Footer />
     </>
   )
 }
