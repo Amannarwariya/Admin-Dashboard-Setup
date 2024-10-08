@@ -42,10 +42,17 @@ function Sidebar() {
               {/* <!-- Add icons to the links using the .nav-icon className
              with font-awesome or any other icon font library --> */}
               <li className="nav-item">
-                <Link to="#" className="nav-link active">
+                <Link to="/adminDashboard" className="nav-link active">
                   <i className="nav-icon fas fa-tachometer-alt"></i>
                   <p>
                     User
+                    <i className="right fas fa-angle-left"></i>
+                  </p>
+                </Link>
+                <Link to="/roombooking" className="nav-link active">
+                  <i className="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    Room Booking
                     <i className="right fas fa-angle-left"></i>
                   </p>
                 </Link>
