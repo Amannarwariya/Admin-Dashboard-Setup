@@ -1,4 +1,6 @@
 import React from 'react'
+import ClientStatistics from './ClientStatistics'
+import AdminDashboard from './AdminDashboard'
 
 function Home() {
   return (
@@ -12,7 +14,7 @@ function Home() {
             <div className="container-fluid">
               <div className="row mb-2">
                 <div className="col-sm-6">
-                  <h1 className="m-0">DashBoard</h1>
+                  <h1 className="m-0">Resort DashBoard</h1>
                 </div>
                 <div className="col-sm-6">
                   <ol className="breadcrumb float-sm-right">
@@ -31,12 +33,14 @@ function Home() {
                 <h1>Home</h1>
               </div>
               {/* <!-- /.row --> */}
+             <AdminDashboard />
             </div>
           </div>
           {/* <!-- /.content --> */}
         </div>
         {/* <!-- /.content-wrapper --> */}
       </div>
+        
     </>
   )
 }
